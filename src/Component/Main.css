@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  font-family: neva;
+}
+.screen {
+  width: 100%;
+  object-fit: cover;
+}
+.head {
+  z-index: 20;
+  top: 0;
+  font-weight: 500;
+
+  width: 100%;
+}
+video {
+  z-index: -1;
+}
+.sec {
+  top: 0;
+  align-items: center;
+  text-align: center;
+  margin-top: -55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+button {
+  color: white;
+  border-radius: 15%;
+}
